@@ -1,12 +1,13 @@
 body {
-    margin-left: 200px;
+    display: flex;
     background-color: #f65095;
 }
 
+#main {
+    margin-left: 50px;
+}
+
 nav ul {
-    position: absolute;
-    top: 30px;
-    left: 15px;
     width: 150px;
     list-style-type: none;
 }
@@ -30,4 +31,20 @@ a:link {
 
 a:visited {
     color: #d05e30;
+}
+
+p {
+    color: #c0d3fa;
+}
+
+h1 {
+    color: #a46686;
+}
+
+h2 {
+    color: #02cee5;
+}
+
+.colored {
+    color: #46301e;
 }

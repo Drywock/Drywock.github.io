@@ -21,6 +21,6 @@ function addItem() {
 function removeItem() {
     let index = document.getElementById('itemIndex').value - 1;
     let list = document.getElementById('shopping-list').children;
-    if(index < list.length - 1 & index >= 0)
+    if(index < list.length & index >= 0)
         list[index].remove();
 }

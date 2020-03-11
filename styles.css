@@ -8,13 +8,26 @@ nav ul {
     top: 30px;
     left: 15px;
     width: 150px;
+    list-style-type: none;
 }
 
-nav ul li {
+nav li {
     margin: 5px 0;
     padding: 5px;
     border-right: 1px solid #d2bfff;
     border-top: 1px solid #d2bfff;
     border-left: 10px solid #d2bfff;
     border-bottom: 1px solid #d2bfff;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #d05e30;
+}
+
+a:visited {
+    color: #d05e30;
 }

@@ -14,7 +14,29 @@
         </nav>
 
         <div id="main">
-            <h1>test</h1>
+            <h1>Shopping</h1>
+            <div>
+                <input type="checkbox" name="important" id="important">
+                <label for="important">Is important</label><br>
+                <input type="checkbox" name="buyable" id="buyable">
+                <label for="buyable">Can be bougth in groceries</label><br>
+                <label for="item">Item to buy</label>
+                <input type="text" name="item" id="item">
+                <input type="button" value="add" onclick="addItem()">
+            </div>
+            <p>
+                Shopping list:
+                <ul id="shopping-list">
+
+                </ul>
+            </p>
+
+            <div>
+                <label for="itemIndex">Remove item :</label> 
+                <input type="number" name="itemIndex" id="itemIndex">
+                <input type="button" value="Remove" onclick="removeItem()">
+            </div>
         </div>
-    </body>
+        <script src="dynforms.js"></script>
+    </body> 
 </html>

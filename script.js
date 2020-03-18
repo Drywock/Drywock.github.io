@@ -1,4 +1,15 @@
 function init() {
+    // Task 1:
+    document.getElementById("first").src = "flower2.png";
+
+    // Task 2:
+    let images = document.getElementById("container").getElementsByTagName("img");
+    images[1].src = "flower2.png";
+    images[3].src = "flower2.png";
+
+    // Task 3:
+    document.getElementById('insert-here').innerHTML = '<div><p>Your are great!</p></div>';
+    
     // Task 4:
     let image = document.createElement('img');
     image.setAttribute('src','flower2.png')
@@ -24,4 +35,8 @@ function init() {
     };
       
     document.getElementById("event").addEventListener("mouseover", changeSrc);      
+}
+
+function greet() {
+    window.alert("Hello world!")
 }
